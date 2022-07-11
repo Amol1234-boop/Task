@@ -63,7 +63,7 @@
         let tr=myTable.getElementsByTagName('tr');
         for(i=0;i<tr.length;i++)
         {
-            let td=tr[i].getElementsByTagName('td')[0];
+            let td=tr[i].getElementsByTagName('td')[tr.length];
             if(td)
             {
                 let textvalue =td.textContent ||td.innerHTML;
